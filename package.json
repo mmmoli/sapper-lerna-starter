@@ -1,6 +1,7 @@
 {
   "name": "root",
   "scripts": {
+    "commit": "git-cz",
     "test": "jest"
   },
   "private": true,
@@ -8,6 +9,18 @@
     "packages/*"
   ],
   "devDependencies": {
+    "commitizen": "^4.0.4",
+    "husky": "^4.2.5",
     "lerna": "^3.20.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
   }
 }
