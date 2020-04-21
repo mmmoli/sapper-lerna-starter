@@ -1,0 +1,25 @@
+{
+  "extends": ["eslint:recommended", "plugin:cypress/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "extraFileExtensions": [".svelte"],
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-unused-vars": ["error", { "args": "none" }],
+    "no-console": "off"
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "plugins": ["prettier", "svelte3"],
+  "overrides": [
+    {
+      "files": ["**/*.svelte"],
+      "processor": "svelte3/svelte3"
+    }
+  ]
+}

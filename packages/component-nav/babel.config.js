@@ -1,3 +1,3 @@
-const baseConfig = require("@contacttracing/config/babel.config");
+const baseConfig = require('@contacttracing/config/babel.config')
 
-module.exports = { ...baseConfig };
+module.exports = { ...baseConfig }
