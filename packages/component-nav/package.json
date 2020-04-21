@@ -1,0 +1,17 @@
+{
+  "name": "@contacttracing/component-nav",
+  "version": "1.0.0",
+  "svelte": "./Nav.svelte",
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "./Nav.svelte"
+  ],
+  "author": "Michele Memoli <michele@100shapes.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@contacttracing/config": "^1.0.0"
+  }
+}
