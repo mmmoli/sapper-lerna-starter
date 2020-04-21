@@ -1,6 +1,6 @@
 {
-  "name": "@contacttracing/app",
-  "description": "TODO",
+  "name": "@contacttracing/web-app",
+  "description": "Sapper app to run the frontend",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
