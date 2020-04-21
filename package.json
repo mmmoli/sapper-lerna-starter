@@ -1,7 +1,13 @@
 {
   "name": "root",
+  "scripts": {
+    "test": "jest"
+  },
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
-    "lerna": "^3.14.1"
+    "lerna": "^3.20.2"
   }
 }

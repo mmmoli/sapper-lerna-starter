@@ -1,0 +1,22 @@
+{
+  "name": "@contacttracing/config",
+  "version": "1.0.0",
+  "description": "Config project for Contract Tracing",
+  "main": "index.js",
+  "author": "Michele Memoli <michele@100shapes.com>",
+  "license": "MIT",
+  "files": [
+    "babel.config.js",
+    "jest.config.js"
+  ],
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@testing-library/jest-dom": "^5.5.0",
+    "@testing-library/svelte": "^3.0.0",
+    "babel-jest": "^25.4.0",
+    "jest": "^25.4.0",
+    "svelte-jester": "^1.0.5"
+  }
+}

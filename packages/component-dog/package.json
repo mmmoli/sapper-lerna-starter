@@ -1,0 +1,17 @@
+{
+  "name": "@contacttracing/component-dog",
+  "version": "1.0.0",
+  "svelte": "./Dog.svelte",
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "./Sog.svelte"
+  ],
+  "author": "Michele Memoli <michele@100shapes.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@contacttracing/config": "^1.0.0"
+  }
+}

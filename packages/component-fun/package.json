@@ -1,0 +1,17 @@
+{
+  "name": "@contacttracing/component-fun",
+  "version": "1.0.0",
+  "svelte": "./Fun.svelte",
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "./Fun.svelte"
+  ],
+  "author": "Michele Memoli <michele@100shapes.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@contacttracing/config": "^1.0.0"
+  }
+}
